@@ -1,0 +1,322 @@
+<!DOCTYPE HTML PUBLIC  "-//W3C//DTD HTML 4.01//EN" "www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 1</title>
+    <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <style>
+        table {
+            width: 100%;
+        }
+
+        #firstRow td {
+            padding-left: 50px;
+        }
+
+        #result {
+            border-collapse: collapse;
+            width: 300px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-size: 13px;
+            /* margin-left: 730px; */
+        }
+
+        #result th {
+            background-color: #f2f2f2;
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+
+        #result tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        #result tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        #result td {
+            padding: 8px;
+            border: 1px solid #ddd;
+        }
+
+        #result tr:hover {
+            background-color: #ddd;
+        }
+
+        #result tr:active {
+            background-color: #e0e0e0;
+        }
+
+        img {
+            margin-top: 30px;
+            margin-left: 300px;
+        }
+
+        #formContainer {
+            width: 100px;
+            margin-left: 330px;
+            position: absolute;
+        }
+
+        #firstRow table {
+            position: absolute;
+        }
+
+        #formContainer {
+            /* background-color: #ffffff; */
+            padding: 20px;
+            text-align: center;
+        }
+
+        #formContainer form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        #formContainer .form__label {
+            display: block;
+            margin-bottom: 10px;
+            margin-left: -25px;
+            width: 10px;
+            font-weight: bold;
+        }
+
+        #formContainer .form__input {
+            width: 100%;
+            padding: 4px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        #formContainer .form__button {
+            font-family: 'Playfair Display', serif;
+            background-color: #ddd;
+            color: #000000;
+            padding: 7px 20px;
+            margin-left: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #formContainer .form__button:hover {
+            background-color: #d0d0d0;
+        }
+
+        #formContainer .form__button:active {
+            background-color: #bbbbbb;
+        }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.5s ease-in, transform 0.5s ease-in;
+        }
+        
+        .fade-in.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        #header > h2, #header > h3 {
+            font-family: 'Playfair Display', serif;
+        }
+
+        #alertContainer {
+            font-family: 'Playfair Display', serif;
+            font-size: 13px;
+            position: absolute;
+            transform: translate(0,-50px);
+            padding: 10px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            color: white;
+            color: #000;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        #alertContainer.active {
+            transform: translate(0,0); 
+            transition: transform 0.5s ease-in-out;
+        }
+
+        #formContainer .error {
+            border: 1px solid red;
+        }
+
+        input {
+            width: 100px;
+        }
+
+        #materials {
+            max-width: 1000px;
+        }
+
+        #result {
+            left: 800px;
+        }
+
+        input .error {
+            border: 1px solid red;
+        }
+
+        #background-video {
+            object-fit: cover;
+            overflow: hidden;
+            z-index: -1;
+            position: absolute;
+            width: 100%;
+            margin-top: -220px;
+            height: 1000px;
+            left: 0;
+            top: 0;
+            visibility: hidden;
+        }
+
+        @media (max-width: 500px) {
+            #firstRow {
+                margin: 0 auto;
+            }
+            
+            #formContainer {
+                margin: 0;
+            }
+            
+            img {
+                margin-left: -15%;
+            }
+            
+            #result {
+                left: 0;
+                margin-left: 40px;
+                margin-top: 550px;
+            }
+        }
+
+        @keyframes textGradient {
+            0% {
+                background-position: 0 50%;
+            }
+            100% {
+                background-position: 100% 50%;
+            }
+        }
+
+        #header > h2, #header > h3 {
+            font-family: 'Playfair Display', serif;
+            background: linear-gradient(to right, black 0%, #5d5d5d 50%, black 100%);
+            background-size: 200% 100%;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            animation: textGradient 3s infinite alternate;
+        }
+
+        #icond {
+            height: 25px;
+            width: 25px;
+            color: black;
+            margin-top: -3px;
+            margin-left: -28px;
+            position: absolute;
+        }
+
+        #alertText {
+            margin-left: 22px;
+        }
+
+        .clear {
+            margin-top: 8px;
+            width: 100px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/3.0.1/js.cookie.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/button.js"></script>
+    <script type="text/javascript" src="js/validateForm.js"></script>
+    <script type="text/javascript" src="js/onStart.js"></script>
+</head>
+<body>
+<div class="bg">
+<video loop id="background-video">
+    <source src="content/rickroll.mp4" type="video/mp4">
+</video>
+<div id="alertContainer">
+    <div id="alert">
+        <span id="alertText">
+            <img id="icond" src="content/error.png"> You have entered incorrect values.
+        </span>
+    </div>
+</div>
+<table id="outer">
+    <thead>
+        <tr>
+            <th id="header" colspan="3">
+                <h2 name="name" class="text">Steputenko Ilya Sergeevich</h2>
+                <h3 name="group" class="text">P3212 | 2230</h3>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr id="firstRow">
+            <td>
+                <table id="materials">
+                    <tr>
+                        <td><img src="content/areas.png" alt="area"></td>
+                    </tr>
+                    <tr id="formContainer">
+                        <td>
+                            <iframe name="votar" style="display:none;"></iframe>
+                            <form onsubmit="start(); return false;" method="post" id="form" target="votar">
+                                <div class="form">
+                                    <div class="form__row">
+                                        <input type="text" name="x" id="x" class="form__input" placeholder="X: (-5; 3)" required>
+                                    </div>
+                                    <div class="form__row">
+                                        <input type="text" name="y" id="y" class="form__input" placeholder="Y: (-5; 3)" required>
+                                    </div>
+                                    <div class="form__row">
+                                        <input type="text" name="r" id="r" class="form__input" placeholder="R: (1; 4)" required>
+                                    </div>
+                                    <div class="form__row">
+                                        <input type="submit" value="Shoot!" class="form__button">
+                                    </div>
+                                </div>
+                            </form>
+                            <button onclick="clearTable();" class="form__button clear">Clear</button>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table id="result">
+                    <thead>
+                        <tr>
+                            <th>X</th>
+                            <th>Y</th>
+                            <th>R</th>
+                            <th>Result</th>
+                            <th>Execution time</th>
+                            <th>Response time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>
+</div>
+</body>
+</html>

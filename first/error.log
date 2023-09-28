@@ -1,0 +1,236 @@
+[Sun Sep 03 16:22:08.901296 2023] [mpm_prefork:notice] [pid 9988] AH00163: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Sun Sep 03 16:22:08.901717 2023] [core:notice] [pid 9988] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 03 16:30:43.226143 2023] [mpm_prefork:notice] [pid 9988] AH00169: caught SIGTERM, shutting down
+[Sun Sep 03 16:30:52.975562 2023] [mpm_prefork:notice] [pid 10496] AH00163: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Sun Sep 03 16:30:52.975814 2023] [core:notice] [pid 10496] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 03 16:31:39.258183 2023] [mpm_prefork:notice] [pid 10496] AH00169: caught SIGTERM, shutting down
+[Sun Sep 03 16:31:43.084095 2023] [mpm_prefork:notice] [pid 10789] AH00163: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Sun Sep 03 16:31:43.084291 2023] [core:notice] [pid 10789] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 03 16:33:15.154850 2023] [mpm_prefork:notice] [pid 10789] AH00169: caught SIGTERM, shutting down
+[Sun Sep 03 16:33:18.854632 2023] [mpm_prefork:notice] [pid 11101] AH00163: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Sun Sep 03 16:33:18.854841 2023] [core:notice] [pid 11101] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 03 16:37:12.920604 2023] [mpm_prefork:notice] [pid 11101] AH00169: caught SIGTERM, shutting down
+[Sun Sep 03 16:37:15.432070 2023] [mpm_prefork:notice] [pid 11431] AH00163: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Sun Sep 03 16:37:15.432275 2023] [core:notice] [pid 11431] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 03 16:39:21.666116 2023] [mpm_prefork:notice] [pid 11431] AH00169: caught SIGTERM, shutting down
+[Sun Sep 03 16:39:24.182813 2023] [mpm_prefork:notice] [pid 11724] AH00163: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Sun Sep 03 16:39:24.183014 2023] [core:notice] [pid 11724] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 03 16:40:47.912182 2023] [mpm_prefork:notice] [pid 11724] AH00169: caught SIGTERM, shutting down
+[Sun Sep 03 16:40:58.773097 2023] [mpm_prefork:notice] [pid 12064] AH00163: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Sun Sep 03 16:40:58.773381 2023] [core:notice] [pid 12064] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 03 16:47:09.760329 2023] [mpm_prefork:notice] [pid 12064] AH00169: caught SIGTERM, shutting down
+[Sun Sep 03 16:47:13.870048 2023] [mpm_prefork:notice] [pid 12380] AH00163: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Sun Sep 03 16:47:13.870253 2023] [core:notice] [pid 12380] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 03 16:52:14.420406 2023] [mpm_prefork:notice] [pid 12380] AH00169: caught SIGTERM, shutting down
+[Sun Sep 03 16:52:18.086189 2023] [mpm_prefork:notice] [pid 12689] AH00163: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Sun Sep 03 16:52:18.086411 2023] [core:notice] [pid 12689] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 03 16:54:59.368218 2023] [mpm_prefork:notice] [pid 12689] AH00169: caught SIGTERM, shutting down
+[Sun Sep 03 16:55:03.956193 2023] [mpm_prefork:notice] [pid 12999] AH00163: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Sun Sep 03 16:55:03.956402 2023] [core:notice] [pid 12999] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 03 16:55:35.594906 2023] [mpm_prefork:notice] [pid 12999] AH00169: caught SIGTERM, shutting down
+[Sun Sep 03 17:00:04.478212 2023] [mpm_prefork:notice] [pid 13414] AH00163: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Sun Sep 03 17:00:04.478658 2023] [core:notice] [pid 13414] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 03 17:00:36.048682 2023] [mpm_prefork:notice] [pid 13414] AH00169: caught SIGTERM, shutting down
+[Sun Sep 03 17:00:40.232459 2023] [mpm_prefork:notice] [pid 13710] AH00163: Apache/2.4.57 (Unix) configured -- resuming normal operations
+[Sun Sep 03 17:00:40.232655 2023] [core:notice] [pid 13710] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 03 19:17:27.212731 2023] [mpm_prefork:notice] [pid 13710] AH00169: caught SIGTERM, shutting down
+[Sun Sep 03 20:01:46.479611 2023] [mpm_prefork:notice] [pid 2802] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sun Sep 03 20:01:46.479939 2023] [core:notice] [pid 2802] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 03 21:19:29.331928 2023] [mpm_prefork:notice] [pid 2802] AH00169: caught SIGTERM, shutting down
+[Mon Sep 04 09:32:40.410116 2023] [mpm_prefork:notice] [pid 668] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Mon Sep 04 09:32:40.410400 2023] [core:notice] [pid 668] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Mon Sep 04 12:23:28.992938 2023] [mpm_prefork:notice] [pid 668] AH00169: caught SIGTERM, shutting down
+[Mon Sep 04 12:40:12.704284 2023] [mpm_prefork:notice] [pid 682] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Mon Sep 04 12:40:12.704563 2023] [core:notice] [pid 682] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Tue Sep 05 11:11:45.997727 2023] [mpm_prefork:notice] [pid 682] AH00169: caught SIGTERM, shutting down
+[Tue Sep 05 11:13:10.632437 2023] [mpm_prefork:notice] [pid 685] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Tue Sep 05 11:13:10.632734 2023] [core:notice] [pid 685] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Wed Sep 06 01:13:28.039344 2023] [mpm_prefork:notice] [pid 685] AH00169: caught SIGTERM, shutting down
+[Wed Sep 06 09:03:10.399240 2023] [mpm_prefork:notice] [pid 675] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Wed Sep 06 09:03:10.399634 2023] [core:notice] [pid 675] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Wed Sep 06 09:03:38.711513 2023] [mpm_prefork:notice] [pid 675] AH00169: caught SIGTERM, shutting down
+[Wed Sep 06 10:53:35.174300 2023] [mpm_prefork:notice] [pid 674] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Wed Sep 06 10:53:35.174579 2023] [core:notice] [pid 674] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Wed Sep 06 11:30:33.799303 2023] [mpm_prefork:notice] [pid 674] AH00169: caught SIGTERM, shutting down
+[Wed Sep 06 11:39:55.231102 2023] [mpm_prefork:notice] [pid 663] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Wed Sep 06 11:39:55.231915 2023] [core:notice] [pid 663] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Wed Sep 06 12:40:30.382332 2023] [mpm_prefork:notice] [pid 663] AH00169: caught SIGTERM, shutting down
+[Wed Sep 06 12:50:13.502547 2023] [mpm_prefork:notice] [pid 657] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Wed Sep 06 12:50:13.502792 2023] [core:notice] [pid 657] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Thu Sep 07 00:13:08.799033 2023] [mpm_prefork:notice] [pid 657] AH00169: caught SIGTERM, shutting down
+[Thu Sep 07 12:30:52.873638 2023] [mpm_prefork:notice] [pid 656] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Thu Sep 07 12:30:52.874665 2023] [core:notice] [pid 656] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Thu Sep 07 21:24:35.089524 2023] [mpm_prefork:notice] [pid 656] AH00169: caught SIGTERM, shutting down
+[Thu Sep 07 21:24:45.623073 2023] [mpm_prefork:notice] [pid 17877] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Thu Sep 07 21:24:45.623136 2023] [core:notice] [pid 17877] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Thu Sep 07 21:28:30.346597 2023] [mpm_prefork:notice] [pid 17877] AH00169: caught SIGTERM, shutting down
+[Thu Sep 07 21:28:37.336091 2023] [mpm_prefork:notice] [pid 18313] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Thu Sep 07 21:28:37.336136 2023] [core:notice] [pid 18313] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Thu Sep 07 21:32:48.449069 2023] [mpm_prefork:notice] [pid 18313] AH00169: caught SIGTERM, shutting down
+[Thu Sep 07 21:33:07.601114 2023] [mpm_prefork:notice] [pid 18747] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Thu Sep 07 21:33:07.601361 2023] [core:notice] [pid 18747] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Thu Sep 07 22:55:58.727386 2023] [mpm_prefork:notice] [pid 18747] AH00169: caught SIGTERM, shutting down
+[Thu Sep 07 22:56:06.542209 2023] [mpm_prefork:notice] [pid 19478] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Thu Sep 07 22:56:06.542282 2023] [core:notice] [pid 19478] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Fri Sep 08 01:32:35.538641 2023] [mpm_prefork:notice] [pid 19478] AH00169: caught SIGTERM, shutting down
+[Fri Sep 08 11:15:43.706876 2023] [mpm_prefork:notice] [pid 681] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Fri Sep 08 11:15:43.707133 2023] [core:notice] [pid 681] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Fri Sep 08 14:32:19.257912 2023] [mpm_prefork:notice] [pid 681] AH00169: caught SIGTERM, shutting down
+[Fri Sep 08 14:32:25.534886 2023] [mpm_prefork:notice] [pid 2361] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Fri Sep 08 14:32:25.534959 2023] [core:notice] [pid 2361] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Fri Sep 08 14:47:54.702322 2023] [mpm_prefork:notice] [pid 2361] AH00169: caught SIGTERM, shutting down
+[Fri Sep 08 15:26:21.083752 2023] [mpm_prefork:notice] [pid 660] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Fri Sep 08 15:26:21.085981 2023] [core:notice] [pid 660] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Fri Sep 08 19:13:35.104742 2023] [mpm_prefork:notice] [pid 660] AH00169: caught SIGTERM, shutting down
+[Fri Sep 08 19:23:26.771171 2023] [mpm_prefork:notice] [pid 688] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Fri Sep 08 19:23:26.771305 2023] [core:notice] [pid 688] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Fri Sep 08 19:52:39.903031 2023] [mpm_prefork:notice] [pid 688] AH00169: caught SIGTERM, shutting down
+[Fri Sep 08 22:52:56.817343 2023] [mpm_prefork:notice] [pid 660] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Fri Sep 08 22:52:56.817569 2023] [core:notice] [pid 660] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Fri Sep 08 23:16:10.838645 2023] [mpm_prefork:notice] [pid 660] AH00169: caught SIGTERM, shutting down
+[Sat Sep 09 00:10:44.455384 2023] [mpm_prefork:notice] [pid 672] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sat Sep 09 00:10:44.455737 2023] [core:notice] [pid 672] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sat Sep 09 00:39:04.408476 2023] [mpm_prefork:notice] [pid 672] AH00169: caught SIGTERM, shutting down
+[Sat Sep 09 08:52:01.594317 2023] [mpm_prefork:notice] [pid 647] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sat Sep 09 08:52:01.594988 2023] [core:notice] [pid 647] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sat Sep 09 10:08:45.139774 2023] [mpm_prefork:notice] [pid 647] AH00169: caught SIGTERM, shutting down
+[Sat Sep 09 10:08:52.401860 2023] [mpm_prefork:notice] [pid 2759] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sat Sep 09 10:08:52.401942 2023] [core:notice] [pid 2759] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sat Sep 09 16:58:13.200789 2023] [mpm_prefork:notice] [pid 2759] AH00169: caught SIGTERM, shutting down
+[Sat Sep 09 16:59:54.939382 2023] [mpm_prefork:notice] [pid 647] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sat Sep 09 16:59:54.939701 2023] [core:notice] [pid 647] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sat Sep 09 17:01:08.215994 2023] [mpm_prefork:notice] [pid 647] AH00169: caught SIGTERM, shutting down
+[Sat Sep 09 20:05:37.743780 2023] [mpm_prefork:notice] [pid 650] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sat Sep 09 20:05:37.769792 2023] [core:notice] [pid 650] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sat Sep 09 20:57:04.625918 2023] [mpm_prefork:notice] [pid 650] AH00169: caught SIGTERM, shutting down
+[Sat Sep 09 22:42:39.162304 2023] [mpm_prefork:notice] [pid 658] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sat Sep 09 22:42:39.162557 2023] [core:notice] [pid 658] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sat Sep 09 23:57:22.558775 2023] [mpm_prefork:notice] [pid 658] AH00169: caught SIGTERM, shutting down
+[Sun Sep 10 09:34:40.316124 2023] [mpm_prefork:notice] [pid 703] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sun Sep 10 09:34:40.337502 2023] [core:notice] [pid 703] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 10 09:36:18.620191 2023] [mpm_prefork:notice] [pid 703] AH00169: caught SIGTERM, shutting down
+[Sun Sep 10 09:40:49.601374 2023] [mpm_prefork:notice] [pid 679] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sun Sep 10 09:40:49.601750 2023] [core:notice] [pid 679] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 10 10:04:29.363257 2023] [mpm_prefork:notice] [pid 679] AH00169: caught SIGTERM, shutting down
+[Sun Sep 10 16:29:25.962359 2023] [mpm_prefork:notice] [pid 682] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sun Sep 10 16:29:25.962686 2023] [core:notice] [pid 682] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 10 20:11:33.319640 2023] [mpm_prefork:notice] [pid 682] AH00169: caught SIGTERM, shutting down
+[Sun Sep 10 20:11:40.341632 2023] [mpm_prefork:notice] [pid 2274] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sun Sep 10 20:11:40.341684 2023] [core:notice] [pid 2274] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 10 20:31:21.380637 2023] [mpm_prefork:notice] [pid 2274] AH00169: caught SIGTERM, shutting down
+[Sun Sep 10 20:40:26.294668 2023] [mpm_prefork:notice] [pid 677] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sun Sep 10 20:40:26.294986 2023] [core:notice] [pid 677] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 10 20:42:30.337941 2023] [mpm_prefork:notice] [pid 677] AH00169: caught SIGTERM, shutting down
+[Sun Sep 10 22:43:16.317636 2023] [mpm_prefork:notice] [pid 676] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sun Sep 10 22:43:16.343000 2023] [core:notice] [pid 676] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 10 23:07:06.509811 2023] [mpm_prefork:notice] [pid 676] AH00169: caught SIGTERM, shutting down
+[Mon Sep 11 10:18:09.455035 2023] [mpm_prefork:notice] [pid 684] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Mon Sep 11 10:18:09.455383 2023] [core:notice] [pid 684] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Mon Sep 11 22:26:05.812657 2023] [mpm_prefork:notice] [pid 684] AH00169: caught SIGTERM, shutting down
+[Tue Sep 12 10:05:45.857042 2023] [mpm_prefork:notice] [pid 675] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Tue Sep 12 10:05:45.857268 2023] [core:notice] [pid 675] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Tue Sep 12 13:54:55.030461 2023] [mpm_prefork:notice] [pid 675] AH00169: caught SIGTERM, shutting down
+[Tue Sep 12 18:30:34.968315 2023] [mpm_prefork:notice] [pid 662] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Tue Sep 12 18:30:34.968553 2023] [core:notice] [pid 662] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Tue Sep 12 20:23:57.381018 2023] [mpm_prefork:notice] [pid 662] AH00169: caught SIGTERM, shutting down
+[Tue Sep 12 22:42:44.649637 2023] [mpm_prefork:notice] [pid 679] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Tue Sep 12 22:42:44.658162 2023] [core:notice] [pid 679] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Wed Sep 13 01:50:42.378643 2023] [mpm_prefork:notice] [pid 679] AH00169: caught SIGTERM, shutting down
+[Wed Sep 13 10:55:49.129912 2023] [mpm_prefork:notice] [pid 675] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Wed Sep 13 10:55:49.130183 2023] [core:notice] [pid 675] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Wed Sep 13 11:39:47.069586 2023] [mpm_prefork:notice] [pid 675] AH00169: caught SIGTERM, shutting down
+[Wed Sep 13 11:40:03.771607 2023] [mpm_prefork:notice] [pid 1775] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Wed Sep 13 11:40:03.771868 2023] [core:notice] [pid 1775] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Thu Sep 14 00:09:45.583488 2023] [mpm_prefork:notice] [pid 1775] AH00169: caught SIGTERM, shutting down
+[Thu Sep 14 09:58:29.245387 2023] [mpm_prefork:notice] [pid 644] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Thu Sep 14 09:58:29.245674 2023] [core:notice] [pid 644] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Fri Sep 15 00:28:27.664064 2023] [mpm_prefork:notice] [pid 644] AH00169: caught SIGTERM, shutting down
+[Fri Sep 15 11:38:49.731255 2023] [mpm_prefork:notice] [pid 665] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Fri Sep 15 11:38:49.731524 2023] [core:notice] [pid 665] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Fri Sep 15 18:37:08.169662 2023] [mpm_prefork:notice] [pid 665] AH00169: caught SIGTERM, shutting down
+[Fri Sep 15 20:58:57.009816 2023] [mpm_prefork:notice] [pid 683] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Fri Sep 15 20:58:57.010196 2023] [core:notice] [pid 683] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sat Sep 16 01:28:09.443395 2023] [mpm_prefork:notice] [pid 683] AH00169: caught SIGTERM, shutting down
+[Sat Sep 16 10:39:27.297806 2023] [mpm_prefork:notice] [pid 672] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sat Sep 16 10:39:27.298032 2023] [core:notice] [pid 672] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 17 02:24:32.937247 2023] [mpm_prefork:notice] [pid 672] AH00169: caught SIGTERM, shutting down
+[Sun Sep 17 10:07:37.621723 2023] [mpm_prefork:notice] [pid 663] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sun Sep 17 10:07:37.621930 2023] [core:notice] [pid 663] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Mon Sep 18 01:23:18.995834 2023] [mpm_prefork:notice] [pid 663] AH00169: caught SIGTERM, shutting down
+[Mon Sep 18 09:36:18.655357 2023] [mpm_prefork:notice] [pid 670] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Mon Sep 18 09:36:18.655594 2023] [core:notice] [pid 670] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Tue Sep 19 01:32:39.855825 2023] [mpm_prefork:notice] [pid 670] AH00169: caught SIGTERM, shutting down
+[Tue Sep 19 09:57:39.312552 2023] [mpm_prefork:notice] [pid 638] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Tue Sep 19 09:57:39.312764 2023] [core:notice] [pid 638] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Tue Sep 19 17:29:51.559620 2023] [mpm_prefork:notice] [pid 638] AH00169: caught SIGTERM, shutting down
+[Tue Sep 19 17:35:35.267439 2023] [mpm_prefork:notice] [pid 666] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Tue Sep 19 17:35:35.267988 2023] [core:notice] [pid 666] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Tue Sep 19 17:37:16.912192 2023] [mpm_prefork:notice] [pid 666] AH00169: caught SIGTERM, shutting down
+[Tue Sep 19 17:42:15.540539 2023] [mpm_prefork:notice] [pid 663] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Tue Sep 19 17:42:15.540834 2023] [core:notice] [pid 663] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Tue Sep 19 17:43:41.957663 2023] [mpm_prefork:notice] [pid 663] AH00169: caught SIGTERM, shutting down
+[Tue Sep 19 18:43:05.793714 2023] [mpm_prefork:notice] [pid 669] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Tue Sep 19 18:43:05.793926 2023] [core:notice] [pid 669] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Tue Sep 19 23:27:59.273750 2023] [mpm_prefork:notice] [pid 669] AH00169: caught SIGTERM, shutting down
+[Tue Sep 19 23:47:39.421227 2023] [mpm_prefork:notice] [pid 657] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Tue Sep 19 23:47:39.421490 2023] [core:notice] [pid 657] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Wed Sep 20 02:28:11.513248 2023] [mpm_prefork:notice] [pid 657] AH00169: caught SIGTERM, shutting down
+[Wed Sep 20 09:36:42.636070 2023] [mpm_prefork:notice] [pid 688] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Wed Sep 20 09:36:42.636423 2023] [core:notice] [pid 688] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Wed Sep 20 09:42:49.428346 2023] [mpm_prefork:notice] [pid 688] AH00169: caught SIGTERM, shutting down
+[Wed Sep 20 11:11:42.117926 2023] [mpm_prefork:notice] [pid 656] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Wed Sep 20 11:11:42.118238 2023] [core:notice] [pid 656] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Thu Sep 21 01:08:50.515655 2023] [mpm_prefork:notice] [pid 656] AH00169: caught SIGTERM, shutting down
+[Thu Sep 21 06:42:23.926219 2023] [mpm_prefork:notice] [pid 678] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Thu Sep 21 06:42:23.930912 2023] [core:notice] [pid 678] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Thu Sep 21 06:43:11.471192 2023] [mpm_prefork:notice] [pid 678] AH00169: caught SIGTERM, shutting down
+[Thu Sep 21 08:21:36.841296 2023] [mpm_prefork:notice] [pid 665] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Thu Sep 21 08:21:36.841511 2023] [core:notice] [pid 665] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Thu Sep 21 12:18:31.323784 2023] [mpm_prefork:notice] [pid 665] AH00169: caught SIGTERM, shutting down
+[Thu Sep 21 13:19:04.637419 2023] [mpm_prefork:notice] [pid 668] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Thu Sep 21 13:19:04.637866 2023] [core:notice] [pid 668] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Fri Sep 22 00:11:39.805318 2023] [mpm_prefork:notice] [pid 668] AH00169: caught SIGTERM, shutting down
+[Fri Sep 22 11:33:45.729208 2023] [mpm_prefork:notice] [pid 655] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Fri Sep 22 11:33:45.729416 2023] [core:notice] [pid 655] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sat Sep 23 00:18:21.886103 2023] [mpm_prefork:notice] [pid 655] AH00169: caught SIGTERM, shutting down
+[Sat Sep 23 01:23:09.873800 2023] [mpm_prefork:notice] [pid 665] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sat Sep 23 01:23:09.887794 2023] [core:notice] [pid 665] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sat Sep 23 02:15:43.081402 2023] [mpm_prefork:notice] [pid 665] AH00169: caught SIGTERM, shutting down
+[Sat Sep 23 11:43:50.797007 2023] [mpm_prefork:notice] [pid 687] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sat Sep 23 11:43:50.820367 2023] [core:notice] [pid 687] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sat Sep 23 22:54:06.759457 2023] [mpm_prefork:notice] [pid 687] AH00169: caught SIGTERM, shutting down
+[Sat Sep 23 23:52:32.606471 2023] [mpm_prefork:notice] [pid 675] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sat Sep 23 23:52:32.616507 2023] [core:notice] [pid 675] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 24 00:44:46.194723 2023] [mpm_prefork:notice] [pid 675] AH00169: caught SIGTERM, shutting down
+[Sun Sep 24 00:49:34.398007 2023] [mpm_prefork:notice] [pid 667] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Sun Sep 24 00:49:34.398256 2023] [core:notice] [pid 667] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Sun Sep 24 23:39:03.873264 2023] [mpm_prefork:notice] [pid 667] AH00169: caught SIGTERM, shutting down
+[Mon Sep 25 13:52:52.742069 2023] [mpm_prefork:notice] [pid 678] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Mon Sep 25 13:52:52.742406 2023] [core:notice] [pid 678] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Mon Sep 25 21:17:26.123936 2023] [mpm_prefork:notice] [pid 678] AH00169: caught SIGTERM, shutting down
+[Tue Sep 26 13:38:17.100660 2023] [mpm_prefork:notice] [pid 671] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Tue Sep 26 13:38:17.100894 2023] [core:notice] [pid 671] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Tue Sep 26 14:34:40.624054 2023] [mpm_prefork:notice] [pid 671] AH00169: caught SIGTERM, shutting down
+[Tue Sep 26 14:54:01.450191 2023] [mpm_prefork:notice] [pid 1743] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Tue Sep 26 14:54:01.450571 2023] [core:notice] [pid 1743] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Tue Sep 26 15:27:57.479426 2023] [mpm_prefork:notice] [pid 1743] AH00169: caught SIGTERM, shutting down
+[Tue Sep 26 16:02:01.427701 2023] [mpm_prefork:notice] [pid 711] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Tue Sep 26 16:02:01.427873 2023] [core:notice] [pid 711] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Tue Sep 26 21:11:09.727560 2023] [mpm_prefork:notice] [pid 711] AH00169: caught SIGTERM, shutting down
+[Tue Sep 26 22:43:20.525445 2023] [mpm_prefork:notice] [pid 699] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Tue Sep 26 22:43:20.525683 2023] [core:notice] [pid 699] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Wed Sep 27 15:43:59.050376 2023] [mpm_prefork:notice] [pid 699] AH00169: caught SIGTERM, shutting down
+[Wed Sep 27 16:30:10.966336 2023] [mpm_prefork:notice] [pid 713] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Wed Sep 27 16:30:11.037327 2023] [core:notice] [pid 713] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Wed Sep 27 20:40:00.976870 2023] [mpm_prefork:notice] [pid 713] AH00169: caught SIGTERM, shutting down
+[Wed Sep 27 20:45:15.486344 2023] [mpm_prefork:notice] [pid 678] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Wed Sep 27 20:45:15.486619 2023] [core:notice] [pid 678] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Thu Sep 28 01:08:20.096668 2023] [mpm_prefork:notice] [pid 678] AH00169: caught SIGTERM, shutting down
+[Thu Sep 28 08:17:23.461520 2023] [mpm_prefork:notice] [pid 718] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Thu Sep 28 08:17:23.461700 2023] [core:notice] [pid 718] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Thu Sep 28 11:19:34.999135 2023] [mpm_prefork:notice] [pid 718] AH00169: caught SIGTERM, shutting down
+[Thu Sep 28 11:42:39.763723 2023] [mpm_prefork:notice] [pid 705] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Thu Sep 28 11:42:39.764600 2023] [core:notice] [pid 705] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
+[Thu Sep 28 12:37:23.042922 2023] [mpm_prefork:notice] [pid 705] AH00169: caught SIGTERM, shutting down
+[Thu Sep 28 13:50:53.976167 2023] [mpm_prefork:notice] [pid 692] AH00163: Apache/2.4.57 (Unix) PHP/7.3.33 configured -- resuming normal operations
+[Thu Sep 28 13:50:53.976521 2023] [core:notice] [pid 692] AH00094: Command line: '/opt/homebrew/opt/httpd/bin/httpd -D FOREGROUND'
