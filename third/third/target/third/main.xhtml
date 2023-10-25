@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:ice="http://www.icefaces.org/icefaces/components">
+<ui:composition template="/WEB-INF/templates/master.xhtml">
+    <ui:define name="head">
+        <h:outputStylesheet library="css" name="main.css"/>
+        <title>Lab 3 - Main Page</title>
+    </ui:define>
+    <ui:define name="main">
+        <main class="main-container">
+            <div class="bg">
+                <div id="alertContainer">
+                    <div id="alert">
+                     <span id="alertText">
+                        <h:graphicImage id="icond" name="content/error.png" alt="area"/>You have entered incorrect values.
+                     </span>
+                    </div>
+                </div>
+                <table id="outer">
+                    <thead>
+                    <tr>
+                        <th id="header" colspan="3">
+                            <h2 class="text">Steputenko Ilya Sergeevich</h2>
+                            <h3 class="text">P3212 | 2252</h3>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr id="firstRow">
+                        <td>
+                            <table id="materials">
+                                <tr>
+                                    <td>
+                                        <div id="graph">
+                                        <!--       ui repeat for each Entry, draw Point       -->
+                                        <ui:repeat value="#{entriesBean.entries}" var="entry">
+                                            <h:graphicImage styleClass="point point__#{entry.hitResult}" alt="point"
+                                                            style="
+                                                            margin-left: #{105 + entry.xValue/entry.rValue * 85}px;
+                                                            margin-top: #{105 - entry.yValue/entry.rValue * 85}px;"
+                                            />
+                                        </ui:repeat>
+                                        </div>
+                                        <canvas id="graphImage" />
+<!--                                        <h:graphicImage name="content/areas.png" alt="area"/>-->
+                                    </td>
+                                </tr>
+                                <tr id="formContainer">
+                                    <td>
+                                        <h:form method="get" id="form"
+                                              target="votar">
+                                            <div class="form__row">
+                                                <!-- sliderEntry {-2...2} -1 step here -->
+<!--                                                <h:outputLabel for="#{entriesBean.entry.xValue}" value="X Value (-2 to 5):" />-->
+                                                <ice:sliderEntry style="width: 250px;" id="sliderEntry" value="#{entriesBean.entry.xValue}" min="-2" max="2" stepPercent="25">
+                                                    <ice:ajax event="slide" execute="@this" render="sliderValueOutput" />
+                                                </ice:sliderEntry>
+                                                <div class="left__bound">-2</div>
+                                                <div class="right__bound">2</div>
+                                            </div>
+                                            <h:inputText styleClass="special__input" value="#{entriesBean.entry.xValue}" />
+                                            <div class="form__row">
+<!--                                                <h:outputLabel styleClass="input-form__label input-form__label_y" for="y-text" value="Y"/>-->
+                                                <h:inputText styleClass="form__input" id="y-text"
+                                                             maxlength="5" autocomplete="off" a:placeholder="Number from -3 to 5..."
+                                                             value="#{entriesBean.entry.yValue}">
+                                                    <f:validateRequired/>
+                                                    <f:validateDoubleRange minimum="-3" maximum="5"/>
+                                                </h:inputText>
+                                            </div>
+                                            <div class="form__row">
+                                                <!-- commandLink {1, 1.5, 2, 2.5, 3} -->
+                                                <!-- checkbox with commandLink inside  -->
+                                                <ice:checkboxButton label="1">
+                                                    <f:selectItems>
+                                                        <h:commandLink value="1" styleClass="check__label">
+                                                            <f:ajax listener="#{entriesBean.entry.setrValue(1)}" render="checkboxButton" />
+                                                        </h:commandLink>
+                                                    </f:selectItems>
+                                                </ice:checkboxButton>
+                                                <ice:checkboxButton label="1.5">
+                                                    <f:selectItems>
+                                                        <h:commandLink value="1.5" styleClass="check__label">
+                                                            <f:ajax listener="#{entriesBean.entry.setrValue(1.5)}" render="checkboxButton" />
+                                                        </h:commandLink>
+                                                    </f:selectItems>
+                                                </ice:checkboxButton>
+                                                <ice:checkboxButton label="2">
+                                                    <f:selectItems>
+                                                        <h:commandLink value="2" styleClass="check__label">
+                                                            <f:ajax listener="#{entriesBean.entry.setrValue(2)}" render="checkboxButton" />
+                                                        </h:commandLink>
+                                                    </f:selectItems>
+                                                </ice:checkboxButton>
+                                                <ice:checkboxButton label="2.5">
+                                                    <f:selectItems>
+                                                        <h:commandLink value="2.5" styleClass="check__label">
+                                                            <f:ajax listener="#{entriesBean.entry.setrValue(2.5)}" render="checkboxButton" />
+                                                        </h:commandLink>
+                                                    </f:selectItems>
+                                                </ice:checkboxButton>
+                                                <ice:checkboxButton label="3">
+                                                    <f:selectItems>
+                                                        <h:commandLink value="3" styleClass="check__label">
+                                                            <f:ajax listener="#{entriesBean.entry.setrValue(3)}" render="checkboxButton" />
+                                                        </h:commandLink>
+                                                    </f:selectItems>
+                                                </ice:checkboxButton>
+                                            </div>
+                                            <h:commandButton styleClass="form__button shoot" value="Submit" action="#{entriesBean.addEntry}" />
+                                            <h:commandButton action="#{entriesBean.clearEntries}" styleClass="form__button clear" value="Clear" />
+                                        </h:form>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            <table id="result">
+                                <thead>
+                                <tr>
+                                    <th>X</th>
+                                    <th>Y</th>
+                                    <th>R</th>
+                                    <th>Result</th>
+                                    <th>Execution time</th>
+                                    <th>Response time</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <ui:repeat value="#{entriesBean.getEntries()}" var="item">
+                                    <tr>
+                                        <td>#{item.xValue}</td>
+                                        <td>#{item.yValue}</td>
+                                        <td>#{item.rValue}</td>
+                                        <td>#{item.hitResult}</td>
+                                        <td>#{item.executionTime}</td>
+                                        <td>#{item.responseTime}</td>
+                                    </tr>
+                                </ui:repeat>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+        <h:outputScript library="js" name="main.js"/>
+        <h:outputScript library="js" name="graph.js"/>
+    </ui:define>
+</ui:composition>
+</html>
